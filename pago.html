@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="./assets/css/pago.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container registro pt-3">
+            <div class="row informacion flex-column flex-md-row flex-lg-row">
+                <div class="col-12 col-md-12 col-lg-4 p-0">
+              <div class="columna-izquierda">
+            <div class="columna-1 pb-5">
+                <div class="header"><img src="./assets/img/logo-social.png" width="210" alt="logo">
+        
+    </div>
+    <div class="pl-5 pr-2 py-5">
+       <h1 class="titulo">Detalles de la compra</h1>
+       <ul class="detalles-facturacion p-0 mb-1">
+        <li>
+            <span>Curso:</span>
+           Ingles para principiantes
+        </li>
+        <li>
+            <span>Instructor:</span>
+            Diego Toledo
+        </li>
+        <li>
+            <span>Precio final:</span>
+            $100.000
+        </li>
+    </ul>
+    <p style="text-align:left; font-weight:bold; padding:0;" class="mb-0">Horarios disponibles:</p>
+    <div style="text-align:left;">
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="horario" id="horario1" value="opcion1" checked>
+        <label class="form-check-label" for="horario1">
+          8:00
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="horario" id="horario2" value="opcion2">
+        <label class="form-check-label" for="horario2">
+          13:00
+        </label>
+      </div>
+      <div class="form-check form-check-inline disabled">
+        <input class="form-check-input" type="radio" name="horario" id="horario3" value="opcion3" disabled>
+        <label class="form-check-label" for="horario3">
+          18:00 (agotado)
+        </label>
+      </div>
+      <div class="form-check form-check-inline disabled">
+        <input class="form-check-input" type="radio" name="horario" id="horario4" value="opcion4">
+        <label class="form-check-label" for="horario4">
+          20:00
+        </label>
+      </div>
+    </div>
+   
+
+
+    </div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-12 col-lg-4 p-0">
+    <div class="imagen-recuadro bg-white"><img src="./assets/img/estudiante-ingles2.png" alt="estudiante">
+    <div class="descripcion-academia pl-2 py-2">
+        <p style="font-weight:bold;">Instituto Colombiano de aprendizaje</p>
+    <p>Av. Caracas ##63-66</p>
+    <p> Bogotá, Cundinamarca</p>
+    </div></div>
+    
+</div>
+
+
+
+        <div class="col-12 col-md-12 col-lg-4 p-0"><div class="columna-2"><h1 class="titulo" style="color:white;">Datos de usuario</h1>
+            <form class="validar" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre"  required>
+                   </div>
+                  <div class="col-md-6 mb-3">
+                    
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido"  required>
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <input type="email" class="form-control" id="validationCustom03" placeholder="Correo" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <input type="number" class="form-control" id="validationCustom03" placeholder="Documento de identidad" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                     <a href="#" class="text-white">Acepto terminos y condiciones de pago</a>
+                    </label>
+                    <div class="invalid-feedback text-white">
+                      Debes aceptar los términos y condiciones
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Pagar</button>
+              </form>
+        </div>
+    </div>
+   
+</div>
+
+</div>
+<script src="./assets/js/validarpago.js"></script>
+<script src="https://kit.fontawesome.com/f92f384272.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+    
+</html>

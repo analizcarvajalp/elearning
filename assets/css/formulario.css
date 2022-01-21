@@ -1,0 +1,146 @@
+html {
+  font-size: 82.5%;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size:3rem;
+}
+
+
+
+body{
+    padding:0;
+    margin:0;
+    background: linear-gradient(to right, #e5dfdf,#ecececba);
+    
+}
+
+
+.volverHome{
+  float: right;
+  color: #c00000;
+  padding: 10px;
+  transition: 0.3s;
+}
+.volverHome:hover{
+  color: #720606;
+  transition: 0.3s;
+}
+.formularios {
+  display: grid;
+  
+}
+.registrar-cuenta, .iniciar-sesion {
+  grid-area: 1 / 1;
+} 
+.informacion{
+  margin:60px auto;
+  box-shadow: 3px 7px 10px 0px rgb(0 0 0 / 11%);
+}
+.fab{
+ color: #000000c9;
+}
+.columna-izquierda{
+  color:white;
+  background: linear-gradient(to right, #67bacc,#1e7e7b); 
+  background-size: cover;
+  padding:45px 0 140px 0;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.btnTransparent{
+  background-color: transparent;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  font-size: .9em;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  transition:0.3s;
+}
+.btnTransparent:hover{
+background-color:white;
+color:#26a5a1;
+transition:0.3s;
+}
+.columna-derecha{
+  text-align: center;
+  padding:50px 0;
+  background-color: #f9f9f9;
+  height:100%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.registro .columna-derecha{
+  padding: 90px 0px;
+}
+.columna-derecha .titulo{
+  color:#26a5a1;
+  font-size:2em;
+}
+.btnAzul{
+  background-color: #26a5a1;
+  width: 160px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #26a5a1;
+  color: white;
+  font-weight: 600;
+  margin-top:20px;
+  font-size: .9em;
+  transition: .3s;
+}
+.btnAzul:hover{
+  background-color:#35c5c0;
+  border:1px solid#35c5c0;
+  color: white;
+  transition:.3s;
+}
+
+.titulo{
+  font-weight:700;
+  font-size:2em;
+}
+button{
+  outline:none !important;
+}
+.fab.fa-google{
+  margin: 0px 5px;
+    border: 1px solid #00000024;
+    border-radius: 100%;
+    padding: 8px;
+    cursor:pointer;
+}
+.fab.fa-facebook-f{
+  margin: 0px 5px;
+  border: 1px solid #00000024;
+  border-radius: 100%;
+  padding: 8px 11px;
+  cursor:pointer;
+}
+
+.form-registro{
+  margin-top:20px;
+}
+.form-registro input{
+margin:5px;
+border: none;
+    background-color: #ececec;
+    padding: 5px;
+    width:300px;
+    font-size: .9em;
+}
+
+
+@media (max-width: 768px){
+  .columna-izquierda, .columna-derecha{
+    border-radius: 0%;
+  }
+}
